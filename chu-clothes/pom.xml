@@ -19,6 +19,18 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
+		<!-- ================================V============================== -->
+		<dependency>
+			<groupId>com.lashou.v</groupId>
+			<artifactId>v-common</artifactId>
+			<version>3.33</version>
+		</dependency>
+	<!-- ================================HESSIAN============================== -->
+	<dependency>
+		<groupId>com.caucho</groupId>
+		<artifactId>hessian</artifactId>
+		<version>4.0.38</version>
+	</dependency>
     <!-- ==================springframework ======================-->
  		<dependency>
 			<groupId>org.springframework</groupId>

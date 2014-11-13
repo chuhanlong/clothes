@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 <generatorConfiguration>
-	<classPathEntry
+		
+		<!-- home -->
+	<!-- <classPathEntry
 		location="F:\Maven\repo\m2\mysql\mysql-connector-java\5.1.33\mysql-connector-java-5.1.33.jar" />
+		 -->
+		<!-- work -->
+	<classPathEntry
+		location="D:\data\maven_repos\mysql\mysql-connector-java\5.1.33\mysql-connector-java-5.1.33.jar" />
 	<context id="context1">
 		<property name="javaFileEncoding" value="utf-8"/>
 		<!-- pagination plugin -->
@@ -23,16 +29,17 @@
 			<property name="forceBigDecimals" value="false" />
 		</javaTypeResolver>
 
-		<javaModelGenerator targetPackage="com.chu.clothes.dao"
+		<javaModelGenerator targetPackage="com.chu.clothes.dao.domain"
 			targetProject="chu-clothes" >
 		</javaModelGenerator>
 		<sqlMapGenerator targetPackage="com.chu.clothes.dao.mapper"
 			targetProject="chu-clothes" >
 		</sqlMapGenerator>
-		<javaClientGenerator targetPackage="com.chu.clothes.dao.mapper.xml"
+		<javaClientGenerator targetPackage="com.chu.clothes.dao.mapper"
 			targetProject="chu-clothes" type="XMLMAPPER" >
 		</javaClientGenerator>
-			<table schema="chu" tableName="user" domainObjectName="User" />
+			<!--  <table schema="chu" tableName="user" domainObjectName="User" />-->
+			<table schema="chu" tableName="test" domainObjectName="Test" />
 	</context> 
     
 </generatorConfiguration>
