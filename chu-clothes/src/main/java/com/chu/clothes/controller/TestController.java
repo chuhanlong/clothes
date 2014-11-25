@@ -12,7 +12,7 @@ import com.chu.clothes.dao.domain.Test;
 import com.chu.clothes.service.TestService;
 
 @Controller
-@RequestMapping("/test")
+@RequestMapping("/chu/test")
 public class TestController {
 
 	@Autowired

@@ -30,4 +30,9 @@ public class TestServiceTest1 {
 		t = list.get(0);
 		Assert.assertTrue(t.getName().equals("1"));
 	}
+	
+	@Test
+	public final void test1() {
+		testService.test("123");
+	}
 }

@@ -8,4 +8,6 @@ public interface TestService {
 
 	
 	public List<Test> findById(Integer id);
+	
+	public String test(String str);
 }

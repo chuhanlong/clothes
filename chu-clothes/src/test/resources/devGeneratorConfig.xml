@@ -30,13 +30,13 @@
 		</javaTypeResolver>
 
 		<javaModelGenerator targetPackage="com.chu.clothes.dao.domain"
-			targetProject="chu-clothes" >
+			targetProject="chuone" >
 		</javaModelGenerator>
 		<sqlMapGenerator targetPackage="com.chu.clothes.dao.mapper"
-			targetProject="chu-clothes" >
+			targetProject="chuone" >
 		</sqlMapGenerator>
 		<javaClientGenerator targetPackage="com.chu.clothes.dao.mapper"
-			targetProject="chu-clothes" type="XMLMAPPER" >
+			targetProject="chuone" type="XMLMAPPER" >
 		</javaClientGenerator>
 			<!--  <table schema="chu" tableName="user" domainObjectName="User" />-->
 			<table schema="chu" tableName="test" domainObjectName="Test" />

@@ -1,11 +1,9 @@
 package com.chu.clothes.dao.mapper;
 
-import java.util.List;
-
-import org.apache.ibatis.annotations.Param;
-
 import com.chu.clothes.dao.domain.Test;
 import com.chu.clothes.dao.domain.TestExample;
+import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TestMapper {
     int countByExample(TestExample example);

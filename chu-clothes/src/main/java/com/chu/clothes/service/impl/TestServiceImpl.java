@@ -15,7 +15,7 @@ public class TestServiceImpl implements TestService{
 
 	@Autowired
 	private TestMapper testMapper;
-	
+
 	public List<Test> findById(Integer id) {
 		List<Test> test = null;
 		if (id != null) {
@@ -26,4 +26,10 @@ public class TestServiceImpl implements TestService{
 		}
 		return test;
 	}
+
+	public String test(String str) {
+		System.err.println(str);
+		return str;
+	}
+	
 }
