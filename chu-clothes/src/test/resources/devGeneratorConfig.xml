@@ -3,12 +3,12 @@
 <generatorConfiguration>
 		
 		<!-- home -->
-	<!-- <classPathEntry
-		location="F:\Maven\repo\m2\mysql\mysql-connector-java\5.1.33\mysql-connector-java-5.1.33.jar" />
-		 -->
-		<!-- work -->
 	<classPathEntry
-		location="D:\data\maven_repos\mysql\mysql-connector-java\5.1.33\mysql-connector-java-5.1.33.jar" />
+		location="F:\Maven\repo\m2\mysql\mysql-connector-java\5.1.33\mysql-connector-java-5.1.33.jar" />
+	
+		<!-- work -->
+	<!--<classPathEntry
+		location="D:\data\maven_repos\mysql\mysql-connector-java\5.1.33\mysql-connector-java-5.1.33.jar" />-->
 	<context id="context1">
 		<property name="javaFileEncoding" value="utf-8"/>
 		<!-- pagination plugin -->
@@ -39,7 +39,7 @@
 			targetProject="chuone" type="XMLMAPPER" >
 		</javaClientGenerator>
 			<!--  <table schema="chu" tableName="user" domainObjectName="User" />-->
-			<table schema="chu" tableName="test" domainObjectName="Test" />
+			<table schema="chu" tableName="user" domainObjectName="User" />
 	</context> 
     
 </generatorConfiguration>

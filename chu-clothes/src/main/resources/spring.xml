@@ -22,5 +22,6 @@
 	<mvc:annotation-driven />
 	
 	<import resource="classpath:mybaties.xml"/>
-	<import resource="classpath:remote.xml"/>
+	<!-- 
+	<import resource="classpath:remote.xml"/> -->
 </beans>

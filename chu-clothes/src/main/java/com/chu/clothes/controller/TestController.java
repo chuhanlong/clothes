@@ -19,7 +19,7 @@ public class TestController {
 	private TestService testService;
 	
 	@ResponseBody
-	@RequestMapping(value="/find",method = {RequestMethod.POST})
+	@RequestMapping(value="/find",method = {RequestMethod.POST, RequestMethod.GET})
 	public Test findById(Integer id) {
 		Test test = null;
 		if (id != null) {
@@ -31,4 +31,9 @@ public class TestController {
 		return test;
 	}
 	
+	@ResponseBody
+	@RequestMapping(value="/test",method = {RequestMethod.POST, RequestMethod.GET})
+	public String testOne(Integer id) {
+		return "success!";
+	}
 }
